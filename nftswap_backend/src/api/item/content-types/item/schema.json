@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "items",
+  "info": {
+    "singularName": "item",
+    "pluralName": "items",
+    "displayName": "item"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "about": {
+      "type": "string"
+    },
+    "categories": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "userid": {
+      "type": "string"
+    },
+    "Comments": {
+      "type": "richtext"
+    },
+    "save": {
+      "type": "string"
+    }
+  }
+}
